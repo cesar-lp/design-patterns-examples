@@ -5,10 +5,10 @@ plugins {
 group 'org.architecture'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 1.11
 
 ext {
-    lombokVersion = '1.18.12'
+    lombokVersion = '1.18.24'
 }
 
 repositories {
@@ -18,5 +18,4 @@ repositories {
 dependencies {
     implementation "org.projectlombok:lombok:${lombokVersion}"
     annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
-    testImplementation 'junit:junit:4.12'
 }
