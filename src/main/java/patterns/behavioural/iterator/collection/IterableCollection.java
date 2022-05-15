@@ -1,4 +1,6 @@
-package patterns.behavioural.iterator;
+package patterns.behavioural.iterator.collection;
+
+import patterns.behavioural.iterator.iterator.Iterator;
 
 public interface IterableCollection<T> {
 

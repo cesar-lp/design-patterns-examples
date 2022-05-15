@@ -1,4 +1,8 @@
-package patterns.behavioural.iterator;
+package patterns.behavioural.iterator.collection;
+
+import patterns.behavioural.iterator.iterator.Iterator;
+import patterns.behavioural.iterator.iterator.ReverseListIterator;
+import patterns.behavioural.iterator.iterator.SequentialListIterator;
 
 import java.util.List;
 

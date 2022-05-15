@@ -1,39 +1,41 @@
-package patterns.behavioural.iterator;
+package patterns.behavioural.iterator.iterator;
 
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;
+import patterns.behavioural.iterator.collection.IterableCollection;
 
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class ReverseListIterator<T> implements Iterator<T> {
+public class SequentialListIterator<T> implements Iterator<T> {
 
     Integer current;
     final IterableCollection<T> collection;
 
-    public ReverseListIterator(IterableCollection<T> collection) {
+    public SequentialListIterator(IterableCollection<T> collection) {
         this.collection = collection;
     }
 
     @Override
     public void first() {
-        current = collection.size() - 1;
+        current = 0;
     }
 
     @Override
     public void next() {
-        if (current < 0) {
+        if (current + 1 > collection.size()) {
             throw new IndexOutOfBoundsException();
         }
 
-        current--;
+        current++;
     }
 
     @Override
     public boolean hasNext() {
-        return current >= 0;
+        return current < collection.size();
     }
 
     @Override
     public T currentItem() {
         return collection.get(current);
     }
+
 }

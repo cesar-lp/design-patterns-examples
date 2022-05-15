@@ -1,5 +1,8 @@
 package patterns.behavioural.iterator;
 
+import patterns.behavioural.iterator.collection.ListCollection;
+import patterns.behavioural.iterator.iterator.Iterator;
+
 import java.util.stream.IntStream;
 
 import static java.util.stream.Collectors.toList;

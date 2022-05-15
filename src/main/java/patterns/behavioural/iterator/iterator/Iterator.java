@@ -1,4 +1,4 @@
-package patterns.behavioural.iterator;
+package patterns.behavioural.iterator.iterator;
 
 public interface Iterator<T> {
 
