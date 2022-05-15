@@ -1,10 +1,14 @@
-package patterns.behavioural.strategy;
+package patterns.behavioural.strategy.character;
 
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.experimental.FieldDefaults;
+import patterns.behavioural.strategy.strategies.FlyStrategy;
+import patterns.behavioural.strategy.strategies.MoveStrategy;
+import patterns.behavioural.strategy.strategies.SwimStrategy;
+import patterns.behavioural.strategy.strategies.WalkStrategy;
 
 @Getter
 @AllArgsConstructor

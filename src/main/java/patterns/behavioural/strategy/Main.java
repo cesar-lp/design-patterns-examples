@@ -1,6 +1,8 @@
 package patterns.behavioural.strategy;
 
 import lombok.val;
+import patterns.behavioural.strategy.character.Character;
+import patterns.behavioural.strategy.strategies.WalkStrategy;
 
 public class Main {
 

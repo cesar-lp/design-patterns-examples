@@ -1,4 +1,4 @@
-package patterns.behavioural.strategy;
+package patterns.behavioural.strategy.strategies;
 
 public class FlyStrategy implements MoveStrategy {
 
