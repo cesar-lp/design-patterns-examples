@@ -1,7 +1,7 @@
 package patterns.structural.bridge.factory;
 
-import patterns.structural.bridge.AbstractWidgetImplementation;
-import patterns.structural.bridge.AndroidWidgetImplementation;
+import patterns.structural.bridge.widget.AbstractWidgetImplementation;
+import patterns.structural.bridge.widget.AndroidWidgetImplementation;
 
 public class AndroidWidgetImplementationFactory extends AbstractWidgetImplementationFactory {
 

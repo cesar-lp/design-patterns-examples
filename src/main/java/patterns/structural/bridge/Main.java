@@ -3,6 +3,11 @@ package patterns.structural.bridge;
 import patterns.structural.bridge.factory.AbstractWidgetImplementationFactory;
 import patterns.structural.bridge.factory.AndroidWidgetImplementationFactory;
 import patterns.structural.bridge.factory.MacOSWidgetImplementationFactory;
+import patterns.structural.bridge.widget.AbstractWidget;
+import patterns.structural.bridge.widget.AbstractWidgetImplementation;
+import patterns.structural.bridge.widget.AndroidWidget;
+import patterns.structural.bridge.widget.MacOSWidget;
+import patterns.structural.bridge.widget.WidgetPlatform;
 
 public class Main {
 

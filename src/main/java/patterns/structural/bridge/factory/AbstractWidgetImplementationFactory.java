@@ -1,6 +1,6 @@
 package patterns.structural.bridge.factory;
 
-import patterns.structural.bridge.AbstractWidgetImplementation;
+import patterns.structural.bridge.widget.AbstractWidgetImplementation;
 
 public abstract class AbstractWidgetImplementationFactory {
 

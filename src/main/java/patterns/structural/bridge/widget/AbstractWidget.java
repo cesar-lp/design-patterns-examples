@@ -1,4 +1,4 @@
-package patterns.structural.bridge;
+package patterns.structural.bridge.widget;
 
 public abstract class AbstractWidget {
 
